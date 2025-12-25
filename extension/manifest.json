@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "FocusGuard",
+  "version": "0.1.0",
+  "description": "Anti-procrastination focus tool",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "options_page": "options.html"
+}
